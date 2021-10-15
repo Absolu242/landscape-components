@@ -1,9 +1,10 @@
+import BlogSection1 from "./Components/BlogSection1";
 import HeaderCar from "./Components/HeaderCarousel";
 
 function App() {
   return (
     <div className="App">
-      <HeaderCar />
+      <BlogSection1 />
     </div>
   );
 }
