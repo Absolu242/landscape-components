@@ -1,0 +1,40 @@
+.carou {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  height: 80vh;
+}
+
+.container .main-image {
+  position: absolute;
+  border: 1px solid red;
+  background-color: #fff;
+  z-index: 0;
+}
+
+.container .main-image p {
+  font-size: 2rem;
+}
+
+.container .main-image img {
+  width: 500px;
+}
+
+.container .btns {
+  position: relative;
+  left: 5rem;
+  top: 50rem;
+}
+
+.container .btns button {
+  background-color: #aaa;
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+}
+/*# sourceMappingURL=header.css.map */

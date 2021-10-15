@@ -1,0 +1,39 @@
+
+.carou{
+    display: flex;
+}
+.container{
+    max-width:1250px;
+    width:100%;
+    margin:0 auto;
+
+    height:80vh;
+
+
+    .main-image{
+        position: absolute;
+        border:1px solid red;
+        background-color: #fff;
+
+        p{
+            font-size:2rem;
+        }
+        img{
+            width:500px
+        }
+
+        z-index: 0;
+    }
+
+    .btns{
+        position: relative;
+        left:5rem;
+        top:50rem;
+
+        button{
+            background-color:#aaa ;
+            margin: 1rem;
+            padding:1rem 1.5rem
+        }
+    }
+}
